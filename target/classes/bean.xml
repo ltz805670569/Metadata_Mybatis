@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sql>
+    <select id="findUsers" resultType="cn.itxdl.bean.User">
+        select * from tb_user
+    </select>
+
+    <select id="findRoles" resultType="cn.itxdl.bean.Role">
+        select * from tb_role
+    </select>
+</sql>
